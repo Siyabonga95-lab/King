@@ -6,7 +6,9 @@ package part_1;
  * @author Siyabonga
  */
 public class Login extends javax.swing.JFrame {
-
+    
+    private Registration registration;
+    
     /**
      * Creates new form Registration
      */
@@ -40,6 +42,11 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setText("Password");
 
         btn_Login.setText("Login");
+        btn_Login.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_LoginActionPerformed(evt);
+            }
+        });
 
         btn_Register.setText("Register");
         btn_Register.addActionListener(new java.awt.event.ActionListener() {
@@ -91,8 +98,13 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_RegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_RegisterActionPerformed
-        // TODO add your handling code here:
+         Registration registration = new Registration();
+       registration.setVisible(true);
     }//GEN-LAST:event_btn_RegisterActionPerformed
+
+    private void btn_LoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_LoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_LoginActionPerformed
 
     /**
      * @param args the command line arguments

@@ -12,8 +12,8 @@ public class Part_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Registration registration = new Registration();
-      //Login login = new Login(registration;
-     registration.setVisible(true);
+       
+      Login login = new Login();
+     login.setVisible(true);
     }
 }
