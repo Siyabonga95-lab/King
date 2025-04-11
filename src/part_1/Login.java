@@ -7,7 +7,8 @@ package part_1;
  */
 public class Login extends javax.swing.JFrame {
     
-    private Registration registration;
+  
+   
     
     /**
      * Creates new form Registration
@@ -98,8 +99,8 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btn_RegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_RegisterActionPerformed
-         Registration registration = new Registration();
-       registration.setVisible(true);
+        //open new window
+    
     }//GEN-LAST:event_btn_RegisterActionPerformed
 
     private void btn_LoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_LoginActionPerformed
